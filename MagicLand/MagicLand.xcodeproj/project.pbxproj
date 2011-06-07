@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DF0BF85139E049B00FF88F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BF84139E049A00FF88F9 /* UIKit.framework */; };
+		5DF0BF87139E049B00FF88F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BF86139E049B00FF88F9 /* Foundation.framework */; };
+		5DF0BF89139E049B00FF88F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BF88139E049B00FF88F9 /* CoreGraphics.framework */; };
+		5DF0BF8F139E049B00FF88F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BF8D139E049B00FF88F9 /* InfoPlist.strings */; };
+		5DF0BF91139E049B00FF88F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0BF90139E049B00FF88F9 /* main.m */; };
+		5DF0BF95139E049B00FF88F9 /* MagicLandAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0BF94139E049B00FF88F9 /* MagicLandAppDelegate.m */; };
+		5DF0BF98139E049B00FF88F9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BF96139E049B00FF88F9 /* MainStoryboard_iPhone.storyboard */; };
+		5DF0BF9B139E049B00FF88F9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BF99139E049B00FF88F9 /* MainStoryboard_iPad.storyboard */; };
+		5DF0BF9D139E049B00FF88F9 /* FirstViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BF9C139E049B00FF88F9 /* FirstViewController.h */; };
+		5DF0BF9F139E049B00FF88F9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0BF9E139E049B00FF88F9 /* FirstViewController.m */; };
+		5DF0BFA1139E049B00FF88F9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFA0139E049B00FF88F9 /* first.png */; };
+		5DF0BFA3139E049B00FF88F9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFA2139E049B00FF88F9 /* first@2x.png */; };
+		5DF0BFA5139E049B00FF88F9 /* SecondViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFA4139E049B00FF88F9 /* SecondViewController.h */; };
+		5DF0BFA7139E049B00FF88F9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0BFA6139E049B00FF88F9 /* SecondViewController.m */; };
+		5DF0BFA9139E049B00FF88F9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFA8139E049B00FF88F9 /* second.png */; };
+		5DF0BFAB139E049B00FF88F9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFAA139E049B00FF88F9 /* second@2x.png */; };
+		5DF0BFB3139E049B00FF88F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BFB2139E049B00FF88F9 /* SenTestingKit.framework */; };
+		5DF0BFB4139E049B00FF88F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BF84139E049A00FF88F9 /* UIKit.framework */; };
+		5DF0BFB5139E049B00FF88F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BF86139E049B00FF88F9 /* Foundation.framework */; };
+		5DF0BFB6139E049B00FF88F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF0BF88139E049B00FF88F9 /* CoreGraphics.framework */; };
+		5DF0BFBE139E049B00FF88F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFBC139E049B00FF88F9 /* InfoPlist.strings */; };
+		5DF0BFC0139E049B00FF88F9 /* MagicLandTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5DF0BFBF139E049B00FF88F9 /* MagicLandTests.h */; };
+		5DF0BFC2139E049B00FF88F9 /* MagicLandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0BFC1139E049B00FF88F9 /* MagicLandTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF0BFB7139E049B00FF88F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF0BF77139E049A00FF88F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF0BF7F139E049A00FF88F9;
+			remoteInfo = MagicLand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DF0BF80139E049A00FF88F9 /* MagicLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF0BF84139E049A00FF88F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DF0BF86139E049B00FF88F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DF0BF88139E049B00FF88F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DF0BF8C139E049B00FF88F9 /* MagicLand-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicLand-Info.plist"; sourceTree = "<group>"; };
+		5DF0BF8E139E049B00FF88F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DF0BF90139E049B00FF88F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DF0BF92139E049B00FF88F9 /* MagicLand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicLand-Prefix.pch"; sourceTree = "<group>"; };
+		5DF0BF93139E049B00FF88F9 /* MagicLandAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicLandAppDelegate.h; sourceTree = "<group>"; };
+		5DF0BF94139E049B00FF88F9 /* MagicLandAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicLandAppDelegate.m; sourceTree = "<group>"; };
+		5DF0BF97139E049B00FF88F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5DF0BF9A139E049B00FF88F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5DF0BF9C139E049B00FF88F9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5DF0BF9E139E049B00FF88F9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5DF0BFA0139E049B00FF88F9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		5DF0BFA2139E049B00FF88F9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		5DF0BFA4139E049B00FF88F9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5DF0BFA6139E049B00FF88F9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5DF0BFA8139E049B00FF88F9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		5DF0BFAA139E049B00FF88F9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5DF0BFB1139E049B00FF88F9 /* MagicLandTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicLandTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF0BFB2139E049B00FF88F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DF0BFBB139E049B00FF88F9 /* MagicLandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicLandTests-Info.plist"; sourceTree = "<group>"; };
+		5DF0BFBD139E049B00FF88F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DF0BFBF139E049B00FF88F9 /* MagicLandTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicLandTests.h; sourceTree = "<group>"; };
+		5DF0BFC1139E049B00FF88F9 /* MagicLandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicLandTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF0BF7D139E049A00FF88F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0BF85139E049B00FF88F9 /* UIKit.framework in Frameworks */,
+				5DF0BF87139E049B00FF88F9 /* Foundation.framework in Frameworks */,
+				5DF0BF89139E049B00FF88F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF0BFAD139E049B00FF88F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0BFB3139E049B00FF88F9 /* SenTestingKit.framework in Frameworks */,
+				5DF0BFB4139E049B00FF88F9 /* UIKit.framework in Frameworks */,
+				5DF0BFB5139E049B00FF88F9 /* Foundation.framework in Frameworks */,
+				5DF0BFB6139E049B00FF88F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF0BF75139E049A00FF88F9 = {
+			isa = PBXGroup;
+			children = (
+				5DF0BF8A139E049B00FF88F9 /* MagicLand */,
+				5DF0BFB9139E049B00FF88F9 /* MagicLandTests */,
+				5DF0BF83139E049A00FF88F9 /* Frameworks */,
+				5DF0BF81139E049A00FF88F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF0BF81139E049A00FF88F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0BF80139E049A00FF88F9 /* MagicLand.app */,
+				5DF0BFB1139E049B00FF88F9 /* MagicLandTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF0BF83139E049A00FF88F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0BF84139E049A00FF88F9 /* UIKit.framework */,
+				5DF0BF86139E049B00FF88F9 /* Foundation.framework */,
+				5DF0BF88139E049B00FF88F9 /* CoreGraphics.framework */,
+				5DF0BFB2139E049B00FF88F9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DF0BF8A139E049B00FF88F9 /* MagicLand */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0BF93139E049B00FF88F9 /* MagicLandAppDelegate.h */,
+				5DF0BF94139E049B00FF88F9 /* MagicLandAppDelegate.m */,
+				5DF0BF96139E049B00FF88F9 /* MainStoryboard_iPhone.storyboard */,
+				5DF0BF99139E049B00FF88F9 /* MainStoryboard_iPad.storyboard */,
+				5DF0BF9C139E049B00FF88F9 /* FirstViewController.h */,
+				5DF0BF9E139E049B00FF88F9 /* FirstViewController.m */,
+				5DF0BFA0139E049B00FF88F9 /* first.png */,
+				5DF0BFA2139E049B00FF88F9 /* first@2x.png */,
+				5DF0BFA4139E049B00FF88F9 /* SecondViewController.h */,
+				5DF0BFA6139E049B00FF88F9 /* SecondViewController.m */,
+				5DF0BFA8139E049B00FF88F9 /* second.png */,
+				5DF0BFAA139E049B00FF88F9 /* second@2x.png */,
+				5DF0BF8B139E049B00FF88F9 /* Supporting Files */,
+			);
+			path = MagicLand;
+			sourceTree = "<group>";
+		};
+		5DF0BF8B139E049B00FF88F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0BF8C139E049B00FF88F9 /* MagicLand-Info.plist */,
+				5DF0BF8D139E049B00FF88F9 /* InfoPlist.strings */,
+				5DF0BF90139E049B00FF88F9 /* main.m */,
+				5DF0BF92139E049B00FF88F9 /* MagicLand-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF0BFB9139E049B00FF88F9 /* MagicLandTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0BFBF139E049B00FF88F9 /* MagicLandTests.h */,
+				5DF0BFC1139E049B00FF88F9 /* MagicLandTests.m */,
+				5DF0BFBA139E049B00FF88F9 /* Supporting Files */,
+			);
+			path = MagicLandTests;
+			sourceTree = "<group>";
+		};
+		5DF0BFBA139E049B00FF88F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0BFBB139E049B00FF88F9 /* MagicLandTests-Info.plist */,
+				5DF0BFBC139E049B00FF88F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF0BF7F139E049A00FF88F9 /* MagicLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF0BFC5139E049B00FF88F9 /* Build configuration list for PBXNativeTarget "MagicLand" */;
+			buildPhases = (
+				5DF0BF7C139E049A00FF88F9 /* Sources */,
+				5DF0BF7D139E049A00FF88F9 /* Frameworks */,
+				5DF0BF7E139E049A00FF88F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicLand;
+			productName = MagicLand;
+			productReference = 5DF0BF80139E049A00FF88F9 /* MagicLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DF0BFB0139E049B00FF88F9 /* MagicLandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF0BFC8139E049B00FF88F9 /* Build configuration list for PBXNativeTarget "MagicLandTests" */;
+			buildPhases = (
+				5DF0BFAC139E049B00FF88F9 /* Sources */,
+				5DF0BFAD139E049B00FF88F9 /* Frameworks */,
+				5DF0BFAE139E049B00FF88F9 /* Resources */,
+				5DF0BFAF139E049B00FF88F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF0BFB8139E049B00FF88F9 /* PBXTargetDependency */,
+			);
+			name = MagicLandTests;
+			productName = MagicLandTests;
+			productReference = 5DF0BFB1139E049B00FF88F9 /* MagicLandTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF0BF77139E049A00FF88F9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5DF0BF7A139E049A00FF88F9 /* Build configuration list for PBXProject "MagicLand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DF0BF75139E049A00FF88F9;
+			productRefGroup = 5DF0BF81139E049A00FF88F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF0BF7F139E049A00FF88F9 /* MagicLand */,
+				5DF0BFB0139E049B00FF88F9 /* MagicLandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF0BF7E139E049A00FF88F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0BF8F139E049B00FF88F9 /* InfoPlist.strings in Resources */,
+				5DF0BF98139E049B00FF88F9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5DF0BF9B139E049B00FF88F9 /* MainStoryboard_iPad.storyboard in Resources */,
+				5DF0BF9D139E049B00FF88F9 /* FirstViewController.h in Resources */,
+				5DF0BFA1139E049B00FF88F9 /* first.png in Resources */,
+				5DF0BFA3139E049B00FF88F9 /* first@2x.png in Resources */,
+				5DF0BFA5139E049B00FF88F9 /* SecondViewController.h in Resources */,
+				5DF0BFA9139E049B00FF88F9 /* second.png in Resources */,
+				5DF0BFAB139E049B00FF88F9 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF0BFAE139E049B00FF88F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0BFBE139E049B00FF88F9 /* InfoPlist.strings in Resources */,
+				5DF0BFC0139E049B00FF88F9 /* MagicLandTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DF0BFAF139E049B00FF88F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF0BF7C139E049A00FF88F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0BF91139E049B00FF88F9 /* main.m in Sources */,
+				5DF0BF95139E049B00FF88F9 /* MagicLandAppDelegate.m in Sources */,
+				5DF0BF9F139E049B00FF88F9 /* FirstViewController.m in Sources */,
+				5DF0BFA7139E049B00FF88F9 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF0BFAC139E049B00FF88F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0BFC2139E049B00FF88F9 /* MagicLandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF0BFB8139E049B00FF88F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF0BF7F139E049A00FF88F9 /* MagicLand */;
+			targetProxy = 5DF0BFB7139E049B00FF88F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DF0BF8D139E049B00FF88F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF0BF8E139E049B00FF88F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DF0BF96139E049B00FF88F9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF0BF97139E049B00FF88F9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5DF0BF99139E049B00FF88F9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF0BF9A139E049B00FF88F9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5DF0BFBC139E049B00FF88F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF0BFBD139E049B00FF88F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF0BFC3139E049B00FF88F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF0BFC4139E049B00FF88F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF0BFC6139E049B00FF88F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicLand/MagicLand-Prefix.pch";
+				INFOPLIST_FILE = "MagicLand/MagicLand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DF0BFC7139E049B00FF88F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicLand/MagicLand-Prefix.pch";
+				INFOPLIST_FILE = "MagicLand/MagicLand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DF0BFC9139E049B00FF88F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagicLand.app/MagicLand";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicLand/MagicLand-Prefix.pch";
+				INFOPLIST_FILE = "MagicLandTests/MagicLandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5DF0BFCA139E049B00FF88F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagicLand.app/MagicLand";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicLand/MagicLand-Prefix.pch";
+				INFOPLIST_FILE = "MagicLandTests/MagicLandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF0BF7A139E049A00FF88F9 /* Build configuration list for PBXProject "MagicLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF0BFC3139E049B00FF88F9 /* Debug */,
+				5DF0BFC4139E049B00FF88F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF0BFC5139E049B00FF88F9 /* Build configuration list for PBXNativeTarget "MagicLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF0BFC6139E049B00FF88F9 /* Debug */,
+				5DF0BFC7139E049B00FF88F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DF0BFC8139E049B00FF88F9 /* Build configuration list for PBXNativeTarget "MagicLandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF0BFC9139E049B00FF88F9 /* Debug */,
+				5DF0BFCA139E049B00FF88F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DF0BF77139E049A00FF88F9 /* Project object */;
+}
